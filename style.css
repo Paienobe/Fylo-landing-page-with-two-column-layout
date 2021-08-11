@@ -1,0 +1,463 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(243, 87%, 12%);
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    width: 90%;
+    margin: auto;
+}
+
+.logo-house {
+    width: 25%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-links:hover {
+    color: hsl(170, 45%, 43%);
+}
+
+.list-item {
+    margin-left: 1.5rem;
+}
+
+.intro {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 90%;
+    margin: auto;
+}
+
+.intro-img {
+    width: 100%;
+}
+
+.user-input {
+    width: 95%;
+    margin: auto;
+    height: 2.5rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: .2rem;
+    width: 95%;
+    margin: auto;
+    height: 2.8rem;
+    color: white;
+}
+
+.btn:hover {
+    background-color: hsl(170, 45%, 43%);
+}
+
+.main {
+    background: url("./images/bg-curve-mobile.svg"), url("./images/bg-curve-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    background-size:  cover, contain;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.main-img {
+    width: 100%;
+    /* padding-bottom: 5rem; */
+}
+
+.main-info {
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.info-head {
+    text-align: center;
+}
+
+.info-link {
+    display: block;
+    text-align: center;
+    width: 55%;
+    margin: auto;
+}
+
+.info-link span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #3da08f;
+    color: #3da08f;
+    width: 90%;
+}
+
+.testimonial {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    border-radius: .2rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.404);
+}
+
+.testifier {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.avatar {
+    width: 20%;
+}
+
+.avatar-img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.details {
+    font-size: 80%;
+    margin-left: 1rem;
+}
+
+.name {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.title {
+    margin-top: 0;
+}
+
+.closing {
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.closing-content {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.footer {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+}
+
+.footer-content {
+    width: 85%;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.footer-links {
+    margin-top: 3rem;
+}
+
+.footer-links a {
+    color: white;
+}
+
+.footer-links a:hover {
+    color: hsl(170, 45%, 43%);
+}
+
+.footer-links a svg path:hover {
+    fill: hsl(170, 45%, 43%);
+}
+
+.socials {
+    width: 30%;
+    margin: auto;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width:650px) {
+    .navbar {
+        justify-content: space-between;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        width: 90%;
+        margin: auto;
+    }
+
+    .logo-house {
+        width: 15%;
+    }
+
+    .list-item {
+        margin-left: 3rem;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+        padding-top: 2.5rem;
+        padding-bottom: 5rem;
+        width: 90%;
+        margin: auto;
+    }
+
+    .intro-info {
+        width: 47%;
+    }
+
+    .intro-img-house {
+        width: 50%;
+    }
+
+    .main {
+        background: url("./images/bg-curve-desktop.svg"), url("./images/bg-curve-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: top, bottom;
+        background-size: contain, cover;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .main-contents {
+        display: flex;
+        text-align: left;
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .main-img-house {
+        width: 50%;
+    }
+
+    .main-info {
+        grid-area: top-left;
+        margin: 0;
+        width: 45%;
+    }
+
+    .main-info p{
+        width: 79%;
+    }
+
+    .info-head {
+        text-align: left;
+        font-size: 1.6rem;
+    }
+
+    .info-link {
+        width: 60%;
+        margin: 0;
+    }
+    
+
+    .testimonial {
+        grid-area: bottom-left;
+        width: 45%;
+        margin-top: 3rem;
+        justify-self: left;
+    }
+
+    .closing-content {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .closing-text {
+        width: 50%;
+    }
+
+    .footer-content {
+        padding-bottom: 2rem;
+    }
+
+    .footer-info {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        font-size: 90%;
+    }
+
+    .footer-links {
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 15%;
+    }
+
+    .socials {
+        width: 15%;
+        margin: 0;
+        margin-top: 1rem;
+        padding-bottom: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact {
+        padding-top: 0;
+        margin-top: 0;
+        width: 30%;
+    }
+
+    .footer-logo {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width:1040px) {
+    .navbar {
+        width: 90%;
+        max-width: 1440px;
+        margin: auto;
+    }
+    
+    .intro {
+        width: 90%;
+        max-width: 1440px;
+        margin: auto;
+    }
+
+    .main-contents {
+        width: 90%;
+        max-width: 1440px;
+        margin: auto;
+    }
+
+    .closing-content {
+        width: 90%;
+        max-width: 1440px;
+        margin: auto;
+    }
+
+    .footer-content {
+        width: 90%;
+        max-width: 1440px;
+        margin: auto;
+    }
+    
+    .intro-info {
+        width: 45%;
+    }
+    
+    .user-input {
+        width: 55%;
+        margin: 0;
+        height: 2.5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .btn {
+        background-color: hsl(224, 93%, 58%);
+        border: none;
+        border-radius: .2rem;
+        width: 40%;
+        margin: 0;
+        height: 2.8rem;
+        color: white;
+    }
+    
+    .user-info-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .main-contents {
+        display: grid;
+        text-align: left;
+        width: 90%;
+        margin: auto;
+        justify-items: left;
+        grid-template-columns: 1.2fr 1.5fr;
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: 
+            "top-left right"
+            "bottom-left right";
+        grid-row-gap: 3rem;
+    }
+
+    .main-info {
+        grid-area: top-left;
+        width: 110%;
+    }
+
+    .info-link {
+        width: 40%;
+        margin: 0;
+    }
+
+    .main-img-house {
+        grid-area: right;
+        width: 90%;
+    }
+
+    .testimonial {
+        grid-area: bottom-left;
+        width: 55%;
+        margin-top: 3rem;
+        margin: 0;
+        justify-self: left;
+    }
+
+    .closing-text {
+        width: 45%;
+    }
+
+    .user-stuff {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+
+    .in-2 {
+        width: 100%;
+    }
+
+    .btn-2 {
+        width: 40%;
+        margin-top: .5rem;
+    }
+}
+
